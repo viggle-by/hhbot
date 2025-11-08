@@ -1,0 +1,50 @@
+{
+  "customChat": {
+    "enabled": true,
+    "onlyUseWhenNecessary": false,
+    "format": {
+      "color": "#FF99DD",
+      "translate": "[%s] %s › %s",
+      "with": [
+        {
+          "color": "#FFCCEE",
+          "click_event": {
+            "action": "open_url",
+            "url": "https://code.chipmunk.land/7cc5c4f330d47060/chipmunkmod"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "color": "white",
+              "text": "Click to open ChipmunkMod source code"
+            }
+          },
+          "text": "ChipmunkMod"
+        },
+        {
+          "color": "#FFCCEE",
+          "selector": "@s"
+        },
+        {
+          "color": "white",
+          "click_event": {
+            "action": "copy_to_clipboard",
+            "value": "MESSAGE"
+          },
+          "hover_event": {
+            "action": "show_text",
+            "value": {
+              "color": "white",
+              "text": "Click to copy message"
+            }
+          },
+          "text": "MESSAGE"
+        }
+      ]
+    }
+  },
+  "bots": [
+    { "host":"chipmunk.land", "port":25565, "username":"hhbot1", "version":"1.19.1", "viewerPort":3001 },
+    { "host":"kaboom.pw", "port":25565, "username":"hhbot2", "version":"1.19.1", "viewerPort":3002 }
+  ]
+}

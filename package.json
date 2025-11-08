@@ -1,0 +1,28 @@
+{
+  "name": "hhbot",
+  "version": "1.0.0",
+  "description": "gg",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viggle-by/hhbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/viggle-by/hhbot/issues"
+  },
+  "homepage": "https://github.com/viggle-by/hhbot#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mineflayer": "^4.33.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "prismarine-viewer": "^1.33.0",
+    "vec3": "^0.1.10"
+  }
+}
