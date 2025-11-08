@@ -2,9 +2,10 @@
   "name": "hhbot",
   "version": "1.0.0",
   "description": "gg",
-  "main": "index.js",
+  "main": "hhbot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/viggle-by/hhbot#readme",
   "dependencies": {
+    "canvas": "^3.2.0",
     "express": "^5.1.0",
     "mineflayer": "^4.33.0",
     "mineflayer-pathfinder": "^2.4.5",
